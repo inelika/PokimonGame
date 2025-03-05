@@ -235,7 +235,7 @@ console.log(shallowCopy);
 
 
 //15
-baseStats[0] = "Yenlik";
+baseStats.splice( 0, 1, "Yenlik" ) ;
 console.log(baseStats);
 
 
